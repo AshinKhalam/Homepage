@@ -2836,7 +2836,7 @@ input, select, textarea {
 		padding: 8em 0 0.1em 0 ;
 	}
 
-		#header .logo {
+		#footer .logo {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
@@ -2848,19 +2848,21 @@ input, select, textarea {
 			display: inline-block;
 		}
 
-			#header .logo > * {
+			#footer .logo > * {
 				display: inline-block;
 				vertical-align: middle;
 			}
 
-			#header .logo .symbol {
+			#footer .logo .symbol {
 				margin-right: 0.65em;
 			}
 
-				#header .logo .symbol img {
+				#footer .logo .symbol img {
 					display: block;
-					width: 5em;
+					width: 10em;
 					height: auto;
+					filter: invert(100);
+					
 				}
 
 		#header nav {
